@@ -70,3 +70,6 @@ class BookController extends Controller
         return response()->json(['message' => 'Libro eliminado']);
     }
 }
+
+
+#book
