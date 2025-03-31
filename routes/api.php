@@ -15,3 +15,7 @@ Route::get('/libros', function () {
     $libros = App\Models\Book::all();
     return view('libros', compact('libros'));
 });
+
+
+
+#books
