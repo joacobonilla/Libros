@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
+use App\Models\Libro;
 use Tests\TestCase;
 
 class BookTest extends TestCase
@@ -27,3 +28,10 @@ public function testCanGetLibros()
     $response->assertStatus(200);
 }
 }
+
+
+
+
+
+
+
